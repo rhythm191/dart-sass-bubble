@@ -30,9 +30,7 @@ export default {
   $size: math.ceil(math.random() * 300px + 30px);
   $color: rgb(math.random() * 255, math.random() * 255, math.random() * 255);
 
-
   .animation#{$i} {
-
     box-sizing: border-box;
     position: absolute;
     left: math.random() * 900px;
@@ -45,9 +43,9 @@ export default {
     background-color: $color;
     width: $size;
     height: $size;
-    opacity: 1;
+    opacity: 0;
     z-index: math.ceil(math.random() * 100);
-    animation: scale-#{$i} math.random() * 2 + 3s math.random() * 30 + 1s infinite normal
+    animation: scale-#{$i} math.random() * 2 + 3s math.random() * 30 + 1s infinite normal;
   }
 
   @keyframes scale-#{$i} {
