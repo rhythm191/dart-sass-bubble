@@ -1,5 +1,13 @@
 # dart-sass-bubble
 
+This is bubble animation to use "sass:math" function from Dart Sasss.
+
+## App url
+
+https://unruffled-mestorf-fca3cd.netlify.com/
+
+
+
 ## Project setup
 ```
 npm install
