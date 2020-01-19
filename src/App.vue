@@ -128,12 +128,8 @@ header {
     opacity: 0;
     z-index: math.ceil(math.random() * 100);
     animation: scale-#{$i}
-      math.random() *
-      2 +
-      3s
-      math.random() *
-      30 +
-      1s
+      math.random() * 2 + 3s
+      math.random() * 30 + 1s
       infinite
       normal;
   }
