@@ -2,9 +2,15 @@
 
 This is bubble animation to use "sass:math" function from Dart Sasss.
 
-## App url
+## App URL
 
 https://dart-sass-bubble.rhyztech.net/
+
+
+## Commentary
+
+アプリを作成した意図を解説しています。
+https://blog.rhyztech.net/dart-sass-built-in-modules/
 
 
 ## Project setup
